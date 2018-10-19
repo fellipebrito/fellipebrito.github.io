@@ -3,11 +3,59 @@
   <channel>
     <title></title>
     <description>Fellipe Brito | Crer também é pensar</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 16 Sep 2018 11:35:09 -0500</pubDate>
-    <lastBuildDate>Sun, 16 Sep 2018 11:35:09 -0500</lastBuildDate>
+    <link>http://0.0.0.0:4000/</link>
+    <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 19 Oct 2018 13:47:05 -0500</pubDate>
+    <lastBuildDate>Fri, 19 Oct 2018 13:47:05 -0500</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
+    
+      <item>
+        <title>Pai Nosso</title>
+        <description>&lt;p&gt;Na maioria das vezes eu penso que Deus é meu pai, mas Jesus me ensinou a SEMPRE começar minha oração lembrando que ele é Pai NOSSO.&lt;/p&gt;
+
+&lt;p&gt;Eu tenho desenvolvido a prática de orar o Pai Nosso frequentemente, várias vezes por dia.&lt;/p&gt;
+
+&lt;p&gt;Hoje, ao começar a oração, enquanto eu estava saindo do Metro pra ir pro Escritório, eu falei: “Pai Nosso…” e aí olhei ao redor.&lt;/p&gt;
+
+&lt;p&gt;Eu estava a algumas quadras de Wall Street, duas quadras do World Trade Center.&lt;/p&gt;
+
+&lt;p&gt;As palavras mal haviam saído da minha boca e eu comecei a meditar na profundidade dessa afirmação… pai NOSSO&lt;/p&gt;
+
+&lt;p&gt;Pai do mendigo, que ainda estava dormindo, enrolado no jornal pra se proteger do frio.&lt;/p&gt;
+
+&lt;p&gt;Pai dos engravatados, que trabalham na Bolsa de Valores aqui.&lt;/p&gt;
+
+&lt;p&gt;Pai de todos que morreram na tragédia que aconteceu aqui perto.&lt;/p&gt;
+
+&lt;p&gt;Pai dos que causaram a tragédia.&lt;/p&gt;
+
+&lt;p&gt;Pai da moça que está comprando café ali na esquina. E pai do estrangeiro, que está vendendo o café.&lt;/p&gt;
+
+&lt;p&gt;Pai do taxista que acabou de buzinar e me xingar.&lt;/p&gt;
+
+&lt;p&gt;Pai do ciclista que bateu na bolsa do senhor de propósito, porque o senhor estava lento pra atravessar a rua.&lt;/p&gt;
+
+&lt;p&gt;Pai da minha esposa que eu amo tanto.&lt;/p&gt;
+
+&lt;p&gt;Pai daquele politico que eu não gosto. E pai do outro, que por sinal, eu também nao gosto.&lt;/p&gt;
+
+&lt;p&gt;Pai das pessoas que me prejudicam no trabalho.&lt;/p&gt;
+
+&lt;p&gt;Pai das pessoas que me ajudam no escritório.&lt;/p&gt;
+
+&lt;p&gt;Pai do meu amigo bolsominion.&lt;/p&gt;
+
+&lt;p&gt;Pai do meu amigo petista.&lt;/p&gt;
+
+&lt;p&gt;Pai das minhas irmãs.&lt;/p&gt;
+
+&lt;p&gt;Na maioria das vezes eu penso que Deus é meu pai, mas Jesus me ensinou a SEMPRE começar minha oração lembrando que ele é Pai NOSSO.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 19 Oct 2018 00:00:00 -0500</pubDate>
+        <link>http://0.0.0.0:4000/pai-nosso/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/pai-nosso/</guid>
+        
+      </item>
     
       <item>
         <title>Estudando Tito - 3</title>
@@ -20,8 +68,8 @@
 &lt;p&gt;Segundo Paulo, nós somos Embaixadores do Reino, com o objetivo de refletir a luz de Cristo de tal maneira que as pessoas a nossa volta se sintam atraídas a ponto de desejar também fazer parte desse mesmo reino&lt;/p&gt;
 </description>
         <pubDate>Sun, 16 Sep 2018 00:00:00 -0500</pubDate>
-        <link>/tito-3/</link>
-        <guid isPermaLink="true">/tito-3/</guid>
+        <link>http://0.0.0.0:4000/tito-3/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/tito-3/</guid>
         
       </item>
     
@@ -34,8 +82,8 @@
 &lt;p&gt;Para Paulo, a vida, a morte e a ressurreição de Jesus nos capacita a antecipar o céu, aqui e agora.&lt;/p&gt;
 </description>
         <pubDate>Sun, 16 Sep 2018 00:00:00 -0500</pubDate>
-        <link>/tito-2-10-15/</link>
-        <guid isPermaLink="true">/tito-2-10-15/</guid>
+        <link>http://0.0.0.0:4000/tito-2-10-15/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/tito-2-10-15/</guid>
         
       </item>
     
@@ -48,8 +96,8 @@
 &lt;p&gt;Nessa parte da carta, Paulo instruí Tito que o foco do cristão deve ser a família. Uma família tão bem estruturada que ela servirá como um chamariz para o resto da sociedade que ainda não é cristã.&lt;/p&gt;
 </description>
         <pubDate>Sun, 16 Sep 2018 00:00:00 -0500</pubDate>
-        <link>/tito-2-1-10/</link>
-        <guid isPermaLink="true">/tito-2-1-10/</guid>
+        <link>http://0.0.0.0:4000/tito-2-1-10/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/tito-2-1-10/</guid>
         
       </item>
     
@@ -64,8 +112,8 @@
 &lt;p&gt;Vamos terminar o primeiro capítulo de Tito juntos?&lt;/p&gt;
 </description>
         <pubDate>Thu, 13 Sep 2018 00:00:00 -0500</pubDate>
-        <link>/tito-1-6-16/</link>
-        <guid isPermaLink="true">/tito-1-6-16/</guid>
+        <link>http://0.0.0.0:4000/tito-1-6-16/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/tito-1-6-16/</guid>
         
       </item>
     
@@ -78,8 +126,8 @@
 &lt;p&gt;Come study this short and important letter with me.&lt;/p&gt;
 </description>
         <pubDate>Wed, 12 Sep 2018 00:00:00 -0500</pubDate>
-        <link>/titus-1/</link>
-        <guid isPermaLink="true">/titus-1/</guid>
+        <link>http://0.0.0.0:4000/titus-1/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/titus-1/</guid>
         
       </item>
     
@@ -94,8 +142,8 @@
 &lt;p&gt;Vamos estudar essa carta juntos?&lt;/p&gt;
 </description>
         <pubDate>Wed, 12 Sep 2018 00:00:00 -0500</pubDate>
-        <link>/tito-1/</link>
-        <guid isPermaLink="true">/tito-1/</guid>
+        <link>http://0.0.0.0:4000/tito-1/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/tito-1/</guid>
         
       </item>
     
@@ -134,8 +182,8 @@
 &lt;p&gt;Eu acho que Deus tem que responder algumas perguntas com relação ao terrível comportamento dele no passado, e não, eu não acredito que Deus fica ofendido ou bravo com meu questionamento honesto.&lt;/p&gt;
 </description>
         <pubDate>Thu, 09 Aug 2018 00:00:00 -0500</pubDate>
-        <link>/adorando-um-genocida/</link>
-        <guid isPermaLink="true">/adorando-um-genocida/</guid>
+        <link>http://0.0.0.0:4000/adorando-um-genocida/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/adorando-um-genocida/</guid>
         
       </item>
     
@@ -166,8 +214,8 @@
 &lt;p&gt;So, if you find yourself questioning if God still hears prayers; if you have problems to believe that God can use you; If you are ashamed by your sins and it makes you think God is not working on you, read Mark, he wrote this story to you.&lt;/p&gt;
 </description>
         <pubDate>Mon, 25 Jun 2018 00:00:00 -0500</pubDate>
-        <link>/why-should-i-read-mark/</link>
-        <guid isPermaLink="true">/why-should-i-read-mark/</guid>
+        <link>http://0.0.0.0:4000/why-should-i-read-mark/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/why-should-i-read-mark/</guid>
         
       </item>
     
@@ -198,69 +246,8 @@
 &lt;p&gt;Então se você as vezes duvida que Deus ouve orações; se tem problemas em acreditar que Deus pode te usar; se a vergonha por ainda ser um pecador faz você pensar que Deus não esta trabalhando mais em você, leia Marcos, ele escreveu essa história pra você!&lt;/p&gt;
 </description>
         <pubDate>Mon, 25 Jun 2018 00:00:00 -0500</pubDate>
-        <link>/por-que-eu-devo-ler-marcos/</link>
-        <guid isPermaLink="true">/por-que-eu-devo-ler-marcos/</guid>
-        
-      </item>
-    
-      <item>
-        <title>Never Enough</title>
-        <description>&lt;p&gt;Most of the times I don’t know how to pray.&lt;/p&gt;
-
-&lt;p&gt;How would a mere man like me choose the right words to address the Creator of the Universe?&lt;/p&gt;
-
-&lt;p&gt;Despite my limitation to do so, the Christian #FAITH is that, in knowing that we could never build ourselves to His level, God himself chose to be like us.&lt;/p&gt;
-
-&lt;p&gt;For thousands of years, The Torah and the Prophets spoke about the day it would happen. The Day when YWHW would break out the limits of the Tabernacle and fill the earth as water fills the ocean.&lt;/p&gt;
-
-&lt;p&gt;John believed that Jesus was God moving at our pace so we could walk with Him and see Him face to face.&lt;/p&gt;
-
-&lt;p&gt;John, a Jew poet, would use all the beauty of the ancient Hebrew culture blended with Greek reason to say that “The Word became flesh and made his dwelling among us, and we have seen his glory”;&lt;/p&gt;
-
-&lt;p&gt;Today, he could say: “God became flesh and blood, and moved into the neighborhood. We saw His glory with our own eyes.”&lt;/p&gt;
-
-&lt;p&gt;Jesus’ core message is that the Glory seen by John and his contemporaneous was just a glimpse of the future when Heaven and Earth would finally be one again. Thus, he taught us to pray: for “The Kingdom to Come”&lt;/p&gt;
-
-&lt;p&gt;I find myself going back to the Lord’s prayer every other day. I pray it slowly; I breathe each of those sentences; I cry out my heart and my despair, calm in the morning or intense at night. And then, sometimes, when I am fortunate, it happens…&lt;/p&gt;
-
-&lt;p&gt;For a flash of time, without my outlining, with no model or plan, I can taste it. He listens to me, and if I may dare… He answers me back.&lt;/p&gt;
-
-&lt;p&gt;I can’t describe it. It goes way beyond my comprehension and my reasoning.  There is no other experience like that, and I can’t share that with you, even if I used all my vocabulary.&lt;/p&gt;
-
-&lt;p&gt;In times like that music saves me.
-Through music, I may join the prayer of someone else so we can pray together;
-Music communicates feelings;
-Music makes it possible for me to pray in movement.&lt;/p&gt;
-
-&lt;p&gt;Today I prayed this song; I wept this song; I danced this song; I bowed down during the song; I found the words and the rhythm to explain the lament of my heart.&lt;/p&gt;
-
-&lt;p&gt;If you, like me, can’t find the right words to pray or find yourself unworthy of addressing the Almighty, close your eyes and join me and all those that for two thousand years have been praying for his Kingdom to Come.&lt;/p&gt;
-
-&lt;p&gt;And if you want to sing it, you may read John’s words, be amazed about everything he saw and testified to us, then, turn your radio on and sing:&lt;/p&gt;
-
-&lt;p&gt;I’m trying to hold my breath
-Let it stay this way
-Can’t let this moment end
-You set off a dream with me
-Getting louder now
-Can you hear it echoing?&lt;/p&gt;
-
-&lt;p&gt;Take my hand
-Will you share this with me?&lt;/p&gt;
-
-&lt;p&gt;‘Cause darling without you
-All the shine of a thousand spotlights
-All the stars we steal from the night sky
-Will never be enough&lt;/p&gt;
-
-&lt;p&gt;Towers of gold are still too little
-These hands could hold the world but it’ll
-Never be enough
-For me&lt;/p&gt;
-</description>
-        <pubDate>Mon, 07 May 2018 00:00:00 -0500</pubDate>
-        <link>/never-enough/</link>
-        <guid isPermaLink="true">/never-enough/</guid>
+        <link>http://0.0.0.0:4000/por-que-eu-devo-ler-marcos/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/por-que-eu-devo-ler-marcos/</guid>
         
       </item>
     
