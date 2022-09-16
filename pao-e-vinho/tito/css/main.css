@@ -126,6 +126,7 @@ textarea{
   display: flex;
   flex-direction: column;
   width: 95vw;
+  max-height: 95vh;
 }
 
 .container .wrapper .texts {
