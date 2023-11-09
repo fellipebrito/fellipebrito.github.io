@@ -9,58 +9,48 @@
   <!-- Favicon -->
   <!-- <link rel="icon" type="image/png" href="/favicon.png"> -->
   
-  <!-- CSS -->
-  <link rel="stylesheet" href="/assets/css/main.css">
+  <!-- Tailwind CSS -->
+  <link rel="stylesheet" href="/assets/css/output.css">
   
   <!-- SEO: Open Graph data -->
   <meta property="og:title" content="Total de Mortes">
   <meta property="og:type" content="website">
   <meta property="og:url" content="http://localhost:4000/total-de-mortes/">
   <meta property="og:description" content="Christ follower, Husband, Nerd, Entrepreneur and Software Writer">
-  <meta property="og:image" content="/assets/images/posts/http://localhost:4000/header.jpg">
-
+  <meta property="og:image" content="/assets/images/posts/header.jpg">
+  
   <!-- SEO: Twitter Card data -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Total de Mortes">
   <meta name="twitter:description" content="Christ follower, Husband, Nerd, Entrepreneur and Software Writer">
   
 </head>
-<body>
+<body class="bg-gray-100">
   
-  <div class="container">
-    <header id="blog-header">
-      <div id="header-content">
-        <a href="/" id="header-logo">Fellipe Brito</a>
-        <!-- <nav>
-          <ul>
-            <li><a href="/about">About Me</a></li>
-            <li><a href="/portfolio">Portfolio</a></li>
-            <li><a href="/blog">Blog</a></li>
-            <li><a href="/contact">Contact</a></li>
-          </ul>
-        </nav> -->
-        <p id="tagline">"Remember you gonna die... but not today."</p>
-        <div id="interactive-icons">
-          <!-- Icons representing interests or categories -->
-        </div>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <header class="bg-white shadow">
+      <div class="py-6 px-4 sm:px-6 lg:px-8">
+        <a href="/" class="text-3xl font-bold leading-tight text-gray-900">Fellipe Brito</a>
+        <p class="mt-2 text-base text-gray-600">"Remember you gonna die... but not today."</p>
       </div>
     </header>
         
-    <main>
+    <main class="mt-8">
       <article class="post-article">
   
-    <header class="post-header" style="background-image: url('/assets/images/posts/header.jpg');">
+    <header class="post-header bg-cover bg-center" style="background-image: url('/assets/images/posts/header.jpg');">
   
-      <div class="header-content">
-          <h1>Total de Mortes</h1>
-          <p><time datetime="2014-07-17T22:00:00-07:00">
+      <div class="header-content p-4 md:p-16">
+          <h1 class="text-3xl md:text-5xl font-bold text-white">Total de Mortes</h1>
+          <p class="text-base text-gray-600"><time datetime="2014-07-17T22:00:00-07:00" class="inline-block">
               Jul 17, 2014
             </time></p>
       </div>
     </header>
 
-  <div class="post-content">
-    <p><a href="/img/posts/2014/07/Iraq+War+Soldier+Death+Toll+Hits+4000+-OriRqX9ZKBl.jpg"><img src="/img/posts/2014/07/Iraq+War+Soldier+Death+Toll+Hits+4000+-OriRqX9ZKBl.jpg" alt="Iraq+War+Soldier+Death+Toll+Hits+4000+-OriRqX9ZKBl" /></a></p>
+    <div class="post-content p-8 my-4 mx-auto max-w-4xl bg-white shadow-lg rounded-lg leading-relaxed">
+      <article class="prose lg:prose-xl prose-indigo mx-auto">
+        <p><a href="/img/posts/2014/07/Iraq+War+Soldier+Death+Toll+Hits+4000+-OriRqX9ZKBl.jpg"><img src="/img/posts/2014/07/Iraq+War+Soldier+Death+Toll+Hits+4000+-OriRqX9ZKBl.jpg" alt="Iraq+War+Soldier+Death+Toll+Hits+4000+-OriRqX9ZKBl" /></a></p>
 
 <p>Essa é a conta de quantos americanos morreram em guerras e quantos brasileiros
 morrem no transito ou são assassinados. Os números revelam o que já sabemos,
@@ -92,19 +82,17 @@ brasil-e-o-4-do-mundo**<br />
 ** http://en.wikipedia.org/wiki/United_States_military_casualties_of_war**</p>
 
 
-  </div>
+      </article>
+    </div>
 </article>
-
     </main>
     
-    <footer>
-      <p>&copy; 2023 . All rights reserved.</p>
+    <footer class="bg-white">
+      <div class="py-6 px-4 sm:px-6 lg:px-8">
+        <p class="text-base text-gray-600">&copy; 2023 . All rights reserved.</p>
+      </div>
     </footer>
   </div>
-
-  
-  <!-- Scripts at the end of the body to improve loading performance -->
-  <!-- <script src="/assets/js/main.js" defer></script> -->
   
 </body>
 </html>

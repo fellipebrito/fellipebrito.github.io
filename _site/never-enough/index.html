@@ -9,58 +9,48 @@
   <!-- Favicon -->
   <!-- <link rel="icon" type="image/png" href="/favicon.png"> -->
   
-  <!-- CSS -->
-  <link rel="stylesheet" href="/assets/css/main.css">
+  <!-- Tailwind CSS -->
+  <link rel="stylesheet" href="/assets/css/output.css">
   
   <!-- SEO: Open Graph data -->
   <meta property="og:title" content="Never Enough">
   <meta property="og:type" content="website">
   <meta property="og:url" content="http://localhost:4000/never-enough/">
   <meta property="og:description" content="Most of the times I don&#39;t know how to pray...">
-  <meta property="og:image" content="/assets/images/posts/http://localhost:4000/cover/never-enough.png">
-
+  <meta property="og:image" content="/assets/images/posts/cover/never-enough.png">
+  
   <!-- SEO: Twitter Card data -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Never Enough">
   <meta name="twitter:description" content="Most of the times I don&#39;t know how to pray...">
   
 </head>
-<body>
+<body class="bg-gray-100">
   
-  <div class="container">
-    <header id="blog-header">
-      <div id="header-content">
-        <a href="/" id="header-logo">Fellipe Brito</a>
-        <!-- <nav>
-          <ul>
-            <li><a href="/about">About Me</a></li>
-            <li><a href="/portfolio">Portfolio</a></li>
-            <li><a href="/blog">Blog</a></li>
-            <li><a href="/contact">Contact</a></li>
-          </ul>
-        </nav> -->
-        <p id="tagline">"Remember you gonna die... but not today."</p>
-        <div id="interactive-icons">
-          <!-- Icons representing interests or categories -->
-        </div>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <header class="bg-white shadow">
+      <div class="py-6 px-4 sm:px-6 lg:px-8">
+        <a href="/" class="text-3xl font-bold leading-tight text-gray-900">Fellipe Brito</a>
+        <p class="mt-2 text-base text-gray-600">"Remember you gonna die... but not today."</p>
       </div>
     </header>
         
-    <main>
+    <main class="mt-8">
       <article class="post-article">
   
-    <header class="post-header" style="background-image: url('/assets/images/posts/cover/never-enough.png');">
+    <header class="post-header bg-cover bg-center" style="background-image: url('/assets/images/posts/cover/never-enough.png');">
   
-      <div class="header-content">
-          <h1>Never Enough</h1>
-          <p><time datetime="2018-05-06T22:00:00-07:00">
+      <div class="header-content p-4 md:p-16">
+          <h1 class="text-3xl md:text-5xl font-bold text-white">Never Enough</h1>
+          <p class="text-base text-gray-600"><time datetime="2018-05-06T22:00:00-07:00" class="inline-block">
               May 6, 2018
             </time></p>
       </div>
     </header>
 
-  <div class="post-content">
-    <p>Most of the times I don’t know how to pray.</p>
+    <div class="post-content p-8 my-4 mx-auto max-w-4xl bg-white shadow-lg rounded-lg leading-relaxed">
+      <article class="prose lg:prose-xl prose-indigo mx-auto">
+        <p>Most of the times I don’t know how to pray.</p>
 
 <p>How would a mere man like me choose the right words to address the Creator of
 the Universe?</p>
@@ -134,19 +124,17 @@ Never be enough<br />
 For me</p>
 
 
-  </div>
+      </article>
+    </div>
 </article>
-
     </main>
     
-    <footer>
-      <p>&copy; 2023 . All rights reserved.</p>
+    <footer class="bg-white">
+      <div class="py-6 px-4 sm:px-6 lg:px-8">
+        <p class="text-base text-gray-600">&copy; 2023 . All rights reserved.</p>
+      </div>
     </footer>
   </div>
-
-  
-  <!-- Scripts at the end of the body to improve loading performance -->
-  <!-- <script src="/assets/js/main.js" defer></script> -->
   
 </body>
 </html>

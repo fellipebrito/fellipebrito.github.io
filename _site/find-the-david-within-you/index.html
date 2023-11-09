@@ -9,58 +9,48 @@
   <!-- Favicon -->
   <!-- <link rel="icon" type="image/png" href="/favicon.png"> -->
   
-  <!-- CSS -->
-  <link rel="stylesheet" href="/assets/css/main.css">
+  <!-- Tailwind CSS -->
+  <link rel="stylesheet" href="/assets/css/output.css">
   
   <!-- SEO: Open Graph data -->
   <meta property="og:title" content="Find the David within You">
   <meta property="og:type" content="website">
   <meta property="og:url" content="http://localhost:4000/find-the-david-within-you/">
   <meta property="og:description" content="Is it not interesting how much we pray for something to change without realizing that the subject of our prayers could be exactly what God wants to use to teach us something?">
-  <meta property="og:image" content="/assets/images/posts/http://localhost:4000/keys.jpg">
-
+  <meta property="og:image" content="/assets/images/posts/keys.jpg">
+  
   <!-- SEO: Twitter Card data -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Find the David within You">
   <meta name="twitter:description" content="Is it not interesting how much we pray for something to change without realizing that the subject of our prayers could be exactly what God wants to use to teach us something?">
   
 </head>
-<body>
+<body class="bg-gray-100">
   
-  <div class="container">
-    <header id="blog-header">
-      <div id="header-content">
-        <a href="/" id="header-logo">Fellipe Brito</a>
-        <!-- <nav>
-          <ul>
-            <li><a href="/about">About Me</a></li>
-            <li><a href="/portfolio">Portfolio</a></li>
-            <li><a href="/blog">Blog</a></li>
-            <li><a href="/contact">Contact</a></li>
-          </ul>
-        </nav> -->
-        <p id="tagline">"Remember you gonna die... but not today."</p>
-        <div id="interactive-icons">
-          <!-- Icons representing interests or categories -->
-        </div>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <header class="bg-white shadow">
+      <div class="py-6 px-4 sm:px-6 lg:px-8">
+        <a href="/" class="text-3xl font-bold leading-tight text-gray-900">Fellipe Brito</a>
+        <p class="mt-2 text-base text-gray-600">"Remember you gonna die... but not today."</p>
       </div>
     </header>
         
-    <main>
+    <main class="mt-8">
       <article class="post-article">
   
-    <header class="post-header" style="background-image: url('/assets/images/posts/keys.jpg');">
+    <header class="post-header bg-cover bg-center" style="background-image: url('/assets/images/posts/keys.jpg');">
   
-      <div class="header-content">
-          <h1>Find the David within You</h1>
-          <p><time datetime="2017-07-16T22:00:00-07:00">
+      <div class="header-content p-4 md:p-16">
+          <h1 class="text-3xl md:text-5xl font-bold text-white">Find the David within You</h1>
+          <p class="text-base text-gray-600"><time datetime="2017-07-16T22:00:00-07:00" class="inline-block">
               Jul 16, 2017
             </time></p>
       </div>
     </header>
 
-  <div class="post-content">
-    <p>It is 825pm in Hollywood, the temperature might be close to the 90’s, and this
+    <div class="post-content p-8 my-4 mx-auto max-w-4xl bg-white shadow-lg rounded-lg leading-relaxed">
+      <article class="prose lg:prose-xl prose-indigo mx-auto">
+        <p>It is 825pm in Hollywood, the temperature might be close to the 90’s, and this
 light in my face does not help me to cool down. I’m focused on a Lead
 Piano+Synth that I created for this new arrangement of an old song. If I just
 opened my eyes, I would see that the environment is ready for one of the best
@@ -219,19 +209,17 @@ planned, but I did not know he had other plans.</p>
 within you.</em></p>
 
 
-  </div>
+      </article>
+    </div>
 </article>
-
     </main>
     
-    <footer>
-      <p>&copy; 2023 . All rights reserved.</p>
+    <footer class="bg-white">
+      <div class="py-6 px-4 sm:px-6 lg:px-8">
+        <p class="text-base text-gray-600">&copy; 2023 . All rights reserved.</p>
+      </div>
     </footer>
   </div>
-
-  
-  <!-- Scripts at the end of the body to improve loading performance -->
-  <!-- <script src="/assets/js/main.js" defer></script> -->
   
 </body>
 </html>

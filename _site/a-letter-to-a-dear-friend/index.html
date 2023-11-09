@@ -9,58 +9,48 @@
   <!-- Favicon -->
   <!-- <link rel="icon" type="image/png" href="/favicon.png"> -->
   
-  <!-- CSS -->
-  <link rel="stylesheet" href="/assets/css/main.css">
+  <!-- Tailwind CSS -->
+  <link rel="stylesheet" href="/assets/css/output.css">
   
   <!-- SEO: Open Graph data -->
   <meta property="og:title" content="A letter to a dear friend">
   <meta property="og:type" content="website">
   <meta property="og:url" content="http://localhost:4000/a-letter-to-a-dear-friend/">
   <meta property="og:description" content="I&#39;ve been there. I&#39;ve had this same sparkling eyes. I&#39;ve felt this same uncontrolled heartbeating and this cold sweat before.">
-  <meta property="og:image" content="/assets/images/posts/http://localhost:4000/broken-heart.jpg">
-
+  <meta property="og:image" content="/assets/images/posts/broken-heart.jpg">
+  
   <!-- SEO: Twitter Card data -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="A letter to a dear friend">
   <meta name="twitter:description" content="I&#39;ve been there. I&#39;ve had this same sparkling eyes. I&#39;ve felt this same uncontrolled heartbeating and this cold sweat before.">
   
 </head>
-<body>
+<body class="bg-gray-100">
   
-  <div class="container">
-    <header id="blog-header">
-      <div id="header-content">
-        <a href="/" id="header-logo">Fellipe Brito</a>
-        <!-- <nav>
-          <ul>
-            <li><a href="/about">About Me</a></li>
-            <li><a href="/portfolio">Portfolio</a></li>
-            <li><a href="/blog">Blog</a></li>
-            <li><a href="/contact">Contact</a></li>
-          </ul>
-        </nav> -->
-        <p id="tagline">"Remember you gonna die... but not today."</p>
-        <div id="interactive-icons">
-          <!-- Icons representing interests or categories -->
-        </div>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <header class="bg-white shadow">
+      <div class="py-6 px-4 sm:px-6 lg:px-8">
+        <a href="/" class="text-3xl font-bold leading-tight text-gray-900">Fellipe Brito</a>
+        <p class="mt-2 text-base text-gray-600">"Remember you gonna die... but not today."</p>
       </div>
     </header>
         
-    <main>
+    <main class="mt-8">
       <article class="post-article">
   
-    <header class="post-header" style="background-image: url('/assets/images/posts/broken-heart.jpg');">
+    <header class="post-header bg-cover bg-center" style="background-image: url('/assets/images/posts/broken-heart.jpg');">
   
-      <div class="header-content">
-          <h1>A letter to a dear friend</h1>
-          <p><time datetime="2016-10-31T22:00:00-07:00">
+      <div class="header-content p-4 md:p-16">
+          <h1 class="text-3xl md:text-5xl font-bold text-white">A letter to a dear friend</h1>
+          <p class="text-base text-gray-600"><time datetime="2016-10-31T22:00:00-07:00" class="inline-block">
               Oct 31, 2016
             </time></p>
       </div>
     </header>
 
-  <div class="post-content">
-    <p>I’ve been there. I’ve had this same sparkling eyes. I’ve felt this same
+    <div class="post-content p-8 my-4 mx-auto max-w-4xl bg-white shadow-lg rounded-lg leading-relaxed">
+      <article class="prose lg:prose-xl prose-indigo mx-auto">
+        <p>I’ve been there. I’ve had this same sparkling eyes. I’ve felt this same
 uncontrolled heartbeating and this cold sweat before. I remember this intense
 adrenaline running through my body, this almost supernatural force pushing me
 forward and this absolute certainty that together we could do the impossible.</p>
@@ -147,19 +137,17 @@ of us, but for the love we both have for Him.</p>
 dear church.</p>
 
 
-  </div>
+      </article>
+    </div>
 </article>
-
     </main>
     
-    <footer>
-      <p>&copy; 2023 . All rights reserved.</p>
+    <footer class="bg-white">
+      <div class="py-6 px-4 sm:px-6 lg:px-8">
+        <p class="text-base text-gray-600">&copy; 2023 . All rights reserved.</p>
+      </div>
     </footer>
   </div>
-
-  
-  <!-- Scripts at the end of the body to improve loading performance -->
-  <!-- <script src="/assets/js/main.js" defer></script> -->
   
 </body>
 </html>

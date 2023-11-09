@@ -9,58 +9,48 @@
   <!-- Favicon -->
   <!-- <link rel="icon" type="image/png" href="/favicon.png"> -->
   
-  <!-- CSS -->
-  <link rel="stylesheet" href="/assets/css/main.css">
+  <!-- Tailwind CSS -->
+  <link rel="stylesheet" href="/assets/css/output.css">
   
   <!-- SEO: Open Graph data -->
   <meta property="og:title" content="Sobre mudanças e montanha russa">
   <meta property="og:type" content="website">
   <meta property="og:url" content="http://localhost:4000/sobre-mudan%C3%A7as-e-montanha-russa/">
   <meta property="og:description" content="Você já foi numa montanha russa?">
-  <meta property="og:image" content="/assets/images/posts/http://localhost:4000/header.jpg">
-
+  <meta property="og:image" content="/assets/images/posts/header.jpg">
+  
   <!-- SEO: Twitter Card data -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Sobre mudanças e montanha russa">
   <meta name="twitter:description" content="Você já foi numa montanha russa?">
   
 </head>
-<body>
+<body class="bg-gray-100">
   
-  <div class="container">
-    <header id="blog-header">
-      <div id="header-content">
-        <a href="/" id="header-logo">Fellipe Brito</a>
-        <!-- <nav>
-          <ul>
-            <li><a href="/about">About Me</a></li>
-            <li><a href="/portfolio">Portfolio</a></li>
-            <li><a href="/blog">Blog</a></li>
-            <li><a href="/contact">Contact</a></li>
-          </ul>
-        </nav> -->
-        <p id="tagline">"Remember you gonna die... but not today."</p>
-        <div id="interactive-icons">
-          <!-- Icons representing interests or categories -->
-        </div>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <header class="bg-white shadow">
+      <div class="py-6 px-4 sm:px-6 lg:px-8">
+        <a href="/" class="text-3xl font-bold leading-tight text-gray-900">Fellipe Brito</a>
+        <p class="mt-2 text-base text-gray-600">"Remember you gonna die... but not today."</p>
       </div>
     </header>
         
-    <main>
+    <main class="mt-8">
       <article class="post-article">
   
-    <header class="post-header" style="background-image: url('/assets/images/posts/header.jpg');">
+    <header class="post-header bg-cover bg-center" style="background-image: url('/assets/images/posts/header.jpg');">
   
-      <div class="header-content">
-          <h1>Sobre mudanças e montanha russa</h1>
-          <p><time datetime="2013-04-03T22:00:00-07:00">
+      <div class="header-content p-4 md:p-16">
+          <h1 class="text-3xl md:text-5xl font-bold text-white">Sobre mudanças e montanha russa</h1>
+          <p class="text-base text-gray-600"><time datetime="2013-04-03T22:00:00-07:00" class="inline-block">
               Apr 3, 2013
             </time></p>
       </div>
     </header>
 
-  <div class="post-content">
-    <p>Você já foi numa montanha russa?</p>
+    <div class="post-content p-8 my-4 mx-auto max-w-4xl bg-white shadow-lg rounded-lg leading-relaxed">
+      <article class="prose lg:prose-xl prose-indigo mx-auto">
+        <p>Você já foi numa montanha russa?</p>
 
 <p>Eu já, e a primeira vez foi depois de velho! Eu me recordo como se fosse
 ontem… passei o dia anterior antecipando a sensação. Durante a viagem, cada
@@ -150,19 +140,17 @@ vocês estão preparados?</p>
 <!-- youtubePlayer.html in your `_includes` directory -->
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6khCjyJQtQE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
-  </div>
+      </article>
+    </div>
 </article>
-
     </main>
     
-    <footer>
-      <p>&copy; 2023 . All rights reserved.</p>
+    <footer class="bg-white">
+      <div class="py-6 px-4 sm:px-6 lg:px-8">
+        <p class="text-base text-gray-600">&copy; 2023 . All rights reserved.</p>
+      </div>
     </footer>
   </div>
-
-  
-  <!-- Scripts at the end of the body to improve loading performance -->
-  <!-- <script src="/assets/js/main.js" defer></script> -->
   
 </body>
 </html>

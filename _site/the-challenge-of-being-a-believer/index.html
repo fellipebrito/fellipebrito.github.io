@@ -9,58 +9,48 @@
   <!-- Favicon -->
   <!-- <link rel="icon" type="image/png" href="/favicon.png"> -->
   
-  <!-- CSS -->
-  <link rel="stylesheet" href="/assets/css/main.css">
+  <!-- Tailwind CSS -->
+  <link rel="stylesheet" href="/assets/css/output.css">
   
   <!-- SEO: Open Graph data -->
   <meta property="og:title" content="The Challenge of being “A Believer”">
   <meta property="og:type" content="website">
   <meta property="og:url" content="http://localhost:4000/the-challenge-of-being-a-believer/">
   <meta property="og:description" content="It is easy to make sure other developers take my code seriously. The challenge is trying to offer something deeper than my logical explanations when some friend needs hope rather than facts.">
-  <meta property="og:image" content="/assets/images/posts/http://localhost:4000/unique.jpg">
-
+  <meta property="og:image" content="/assets/images/posts/unique.jpg">
+  
   <!-- SEO: Twitter Card data -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="The Challenge of being “A Believer”">
   <meta name="twitter:description" content="It is easy to make sure other developers take my code seriously. The challenge is trying to offer something deeper than my logical explanations when some friend needs hope rather than facts.">
   
 </head>
-<body>
+<body class="bg-gray-100">
   
-  <div class="container">
-    <header id="blog-header">
-      <div id="header-content">
-        <a href="/" id="header-logo">Fellipe Brito</a>
-        <!-- <nav>
-          <ul>
-            <li><a href="/about">About Me</a></li>
-            <li><a href="/portfolio">Portfolio</a></li>
-            <li><a href="/blog">Blog</a></li>
-            <li><a href="/contact">Contact</a></li>
-          </ul>
-        </nav> -->
-        <p id="tagline">"Remember you gonna die... but not today."</p>
-        <div id="interactive-icons">
-          <!-- Icons representing interests or categories -->
-        </div>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <header class="bg-white shadow">
+      <div class="py-6 px-4 sm:px-6 lg:px-8">
+        <a href="/" class="text-3xl font-bold leading-tight text-gray-900">Fellipe Brito</a>
+        <p class="mt-2 text-base text-gray-600">"Remember you gonna die... but not today."</p>
       </div>
     </header>
         
-    <main>
+    <main class="mt-8">
       <article class="post-article">
   
-    <header class="post-header" style="background-image: url('/assets/images/posts/unique.jpg');">
+    <header class="post-header bg-cover bg-center" style="background-image: url('/assets/images/posts/unique.jpg');">
   
-      <div class="header-content">
-          <h1>The Challenge of being “A Believer”</h1>
-          <p><time datetime="2014-08-13T22:00:00-07:00">
+      <div class="header-content p-4 md:p-16">
+          <h1 class="text-3xl md:text-5xl font-bold text-white">The Challenge of being “A Believer”</h1>
+          <p class="text-base text-gray-600"><time datetime="2014-08-13T22:00:00-07:00" class="inline-block">
               Aug 13, 2014
             </time></p>
       </div>
     </header>
 
-  <div class="post-content">
-    <p><img src="/assets/images/posts/1795609_10152316502144161_1986893913_n.jpg" alt="God is not
+    <div class="post-content p-8 my-4 mx-auto max-w-4xl bg-white shadow-lg rounded-lg leading-relaxed">
+      <article class="prose lg:prose-xl prose-indigo mx-auto">
+        <p><img src="/assets/images/posts/1795609_10152316502144161_1986893913_n.jpg" alt="God is not
 dead" /></p>
 
 <p>I went to one of the biggest ruby conferences in the world, which happened
@@ -180,19 +170,17 @@ that everyone, if only for one… moment, could feel… that awe, and humility,
 and hope. But… <strong>That continues to be my challenge</strong>.”</em></p>
 
 
-  </div>
+      </article>
+    </div>
 </article>
-
     </main>
     
-    <footer>
-      <p>&copy; 2023 . All rights reserved.</p>
+    <footer class="bg-white">
+      <div class="py-6 px-4 sm:px-6 lg:px-8">
+        <p class="text-base text-gray-600">&copy; 2023 . All rights reserved.</p>
+      </div>
     </footer>
   </div>
-
-  
-  <!-- Scripts at the end of the body to improve loading performance -->
-  <!-- <script src="/assets/js/main.js" defer></script> -->
   
 </body>
 </html>

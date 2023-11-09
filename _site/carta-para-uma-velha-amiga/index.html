@@ -9,58 +9,48 @@
   <!-- Favicon -->
   <!-- <link rel="icon" type="image/png" href="/favicon.png"> -->
   
-  <!-- CSS -->
-  <link rel="stylesheet" href="/assets/css/main.css">
+  <!-- Tailwind CSS -->
+  <link rel="stylesheet" href="/assets/css/output.css">
   
   <!-- SEO: Open Graph data -->
   <meta property="og:title" content="Carta para uma velha amiga">
   <meta property="og:type" content="website">
   <meta property="og:url" content="http://localhost:4000/carta-para-uma-velha-amiga/">
   <meta property="og:description" content="Eu já estive lá antes. Já tive este brilho nos olhos e já senti esta mesma sensação. Meu coração batendo completamente descompassado...">
-  <meta property="og:image" content="/assets/images/posts/http://localhost:4000/broken-heart.jpg">
-
+  <meta property="og:image" content="/assets/images/posts/broken-heart.jpg">
+  
   <!-- SEO: Twitter Card data -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Carta para uma velha amiga">
   <meta name="twitter:description" content="Eu já estive lá antes. Já tive este brilho nos olhos e já senti esta mesma sensação. Meu coração batendo completamente descompassado...">
   
 </head>
-<body>
+<body class="bg-gray-100">
   
-  <div class="container">
-    <header id="blog-header">
-      <div id="header-content">
-        <a href="/" id="header-logo">Fellipe Brito</a>
-        <!-- <nav>
-          <ul>
-            <li><a href="/about">About Me</a></li>
-            <li><a href="/portfolio">Portfolio</a></li>
-            <li><a href="/blog">Blog</a></li>
-            <li><a href="/contact">Contact</a></li>
-          </ul>
-        </nav> -->
-        <p id="tagline">"Remember you gonna die... but not today."</p>
-        <div id="interactive-icons">
-          <!-- Icons representing interests or categories -->
-        </div>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <header class="bg-white shadow">
+      <div class="py-6 px-4 sm:px-6 lg:px-8">
+        <a href="/" class="text-3xl font-bold leading-tight text-gray-900">Fellipe Brito</a>
+        <p class="mt-2 text-base text-gray-600">"Remember you gonna die... but not today."</p>
       </div>
     </header>
         
-    <main>
+    <main class="mt-8">
       <article class="post-article">
   
-    <header class="post-header" style="background-image: url('/assets/images/posts/broken-heart.jpg');">
+    <header class="post-header bg-cover bg-center" style="background-image: url('/assets/images/posts/broken-heart.jpg');">
   
-      <div class="header-content">
-          <h1>Carta para uma velha amiga</h1>
-          <p><time datetime="2016-11-07T22:00:00-08:00">
+      <div class="header-content p-4 md:p-16">
+          <h1 class="text-3xl md:text-5xl font-bold text-white">Carta para uma velha amiga</h1>
+          <p class="text-base text-gray-600"><time datetime="2016-11-07T22:00:00-08:00" class="inline-block">
               Nov 7, 2016
             </time></p>
       </div>
     </header>
 
-  <div class="post-content">
-    <p>Eu já estive lá antes. Já tive este brilho nos olhos e já senti esta mesma
+    <div class="post-content p-8 my-4 mx-auto max-w-4xl bg-white shadow-lg rounded-lg leading-relaxed">
+      <article class="prose lg:prose-xl prose-indigo mx-auto">
+        <p>Eu já estive lá antes. Já tive este brilho nos olhos e já senti esta mesma
 sensação. Meu coração batendo completamente descompassado e o suor frio
 escorrendo pela espinha. Eu lembro como se fosse ontem dessa adrenalina
 correndo pelo meu corpo, esta sobrenatural força me empurrando e a absoluta
@@ -156,19 +146,17 @@ temos por Ele.</p>
 novo, querida igreja.</p>
 
 
-  </div>
+      </article>
+    </div>
 </article>
-
     </main>
     
-    <footer>
-      <p>&copy; 2023 . All rights reserved.</p>
+    <footer class="bg-white">
+      <div class="py-6 px-4 sm:px-6 lg:px-8">
+        <p class="text-base text-gray-600">&copy; 2023 . All rights reserved.</p>
+      </div>
     </footer>
   </div>
-
-  
-  <!-- Scripts at the end of the body to improve loading performance -->
-  <!-- <script src="/assets/js/main.js" defer></script> -->
   
 </body>
 </html>

@@ -9,58 +9,48 @@
   <!-- Favicon -->
   <!-- <link rel="icon" type="image/png" href="/favicon.png"> -->
   
-  <!-- CSS -->
-  <link rel="stylesheet" href="/assets/css/main.css">
+  <!-- Tailwind CSS -->
+  <link rel="stylesheet" href="/assets/css/output.css">
   
   <!-- SEO: Open Graph data -->
   <meta property="og:title" content="Estudando Tito - 3">
   <meta property="og:type" content="website">
   <meta property="og:url" content="http://localhost:4000/estudando-tito-3/">
   <meta property="og:description" content="Segundo Paulo, nós somos Embaixadores do Reino, com o objetivo de refletir a luz de Cristo de tal maneira que as pessoas a nossa volta se sintam atraídas a ponto de desejar também fazer parte desse mesmo reino">
-  <meta property="og:image" content="/assets/images/posts/http://localhost:4000/tito-3.jpg">
-
+  <meta property="og:image" content="/assets/images/posts/tito-3.jpg">
+  
   <!-- SEO: Twitter Card data -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Estudando Tito - 3">
   <meta name="twitter:description" content="Segundo Paulo, nós somos Embaixadores do Reino, com o objetivo de refletir a luz de Cristo de tal maneira que as pessoas a nossa volta se sintam atraídas a ponto de desejar também fazer parte desse mesmo reino">
   
 </head>
-<body>
+<body class="bg-gray-100">
   
-  <div class="container">
-    <header id="blog-header">
-      <div id="header-content">
-        <a href="/" id="header-logo">Fellipe Brito</a>
-        <!-- <nav>
-          <ul>
-            <li><a href="/about">About Me</a></li>
-            <li><a href="/portfolio">Portfolio</a></li>
-            <li><a href="/blog">Blog</a></li>
-            <li><a href="/contact">Contact</a></li>
-          </ul>
-        </nav> -->
-        <p id="tagline">"Remember you gonna die... but not today."</p>
-        <div id="interactive-icons">
-          <!-- Icons representing interests or categories -->
-        </div>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <header class="bg-white shadow">
+      <div class="py-6 px-4 sm:px-6 lg:px-8">
+        <a href="/" class="text-3xl font-bold leading-tight text-gray-900">Fellipe Brito</a>
+        <p class="mt-2 text-base text-gray-600">"Remember you gonna die... but not today."</p>
       </div>
     </header>
         
-    <main>
+    <main class="mt-8">
       <article class="post-article">
   
-    <header class="post-header" style="background-image: url('/assets/images/posts/tito-3.jpg');">
+    <header class="post-header bg-cover bg-center" style="background-image: url('/assets/images/posts/tito-3.jpg');">
   
-      <div class="header-content">
-          <h1>Estudando Tito - 3</h1>
-          <p><time datetime="2018-09-15T22:00:00-07:00">
+      <div class="header-content p-4 md:p-16">
+          <h1 class="text-3xl md:text-5xl font-bold text-white">Estudando Tito - 3</h1>
+          <p class="text-base text-gray-600"><time datetime="2018-09-15T22:00:00-07:00" class="inline-block">
               Sep 15, 2018
             </time></p>
       </div>
     </header>
 
-  <div class="post-content">
-    <!-- youtubePlayer.html in your `_includes` directory -->
+    <div class="post-content p-8 my-4 mx-auto max-w-4xl bg-white shadow-lg rounded-lg leading-relaxed">
+      <article class="prose lg:prose-xl prose-indigo mx-auto">
+        <!-- youtubePlayer.html in your `_includes` directory -->
 <iframe width="560" height="315" src="https://www.youtube.com/embed/f9bKaA78V7g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
 <p>A obra de Jesus não é uma recompensa pelo nosso bom comportamento, mas um ato
@@ -74,19 +64,17 @@ luz de Cristo de tal maneira que as pessoas a nossa volta se sintam atraídas a
 ponto de desejar também fazer parte desse mesmo reino</p>
 
 
-  </div>
+      </article>
+    </div>
 </article>
-
     </main>
     
-    <footer>
-      <p>&copy; 2023 . All rights reserved.</p>
+    <footer class="bg-white">
+      <div class="py-6 px-4 sm:px-6 lg:px-8">
+        <p class="text-base text-gray-600">&copy; 2023 . All rights reserved.</p>
+      </div>
     </footer>
   </div>
-
-  
-  <!-- Scripts at the end of the body to improve loading performance -->
-  <!-- <script src="/assets/js/main.js" defer></script> -->
   
 </body>
 </html>

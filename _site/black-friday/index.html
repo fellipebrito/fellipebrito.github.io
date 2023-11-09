@@ -9,58 +9,48 @@
   <!-- Favicon -->
   <!-- <link rel="icon" type="image/png" href="/favicon.png"> -->
   
-  <!-- CSS -->
-  <link rel="stylesheet" href="/assets/css/main.css">
+  <!-- Tailwind CSS -->
+  <link rel="stylesheet" href="/assets/css/output.css">
   
   <!-- SEO: Open Graph data -->
   <meta property="og:title" content="Black Friday">
   <meta property="og:type" content="website">
   <meta property="og:url" content="http://localhost:4000/black-friday/">
   <meta property="og:description" content="Promoções relampago, daquelas que voce precisa comprar agora ou nunca, tem o poder de despertar em nós essa necessidade incrível de comprar algo que não precisamos. É impressionante como cada oferta nova que eu vejo na internet ou na TV, gera em mim uma necessidade que eu nao sabia que existia. Aquela rack nova pra TV, o jogo de video game, a moto, o móvel, a louça… Somos a geração mais bombardeada por propagandas que já houve. Crianças sabem de cor os lançamentos tecnológicos, e a obsolescência programada fica evidente a cada novo festival de lançamentos de smartphones.">
-  <meta property="og:image" content="/assets/images/posts/http://localhost:4000/header.jpg">
-
+  <meta property="og:image" content="/assets/images/posts/header.jpg">
+  
   <!-- SEO: Twitter Card data -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Black Friday">
   <meta name="twitter:description" content="Promoções relampago, daquelas que voce precisa comprar agora ou nunca, tem o poder de despertar em nós essa necessidade incrível de comprar algo que não precisamos. É impressionante como cada oferta nova que eu vejo na internet ou na TV, gera em mim uma necessidade que eu nao sabia que existia. Aquela rack nova pra TV, o jogo de video game, a moto, o móvel, a louça… Somos a geração mais bombardeada por propagandas que já houve. Crianças sabem de cor os lançamentos tecnológicos, e a obsolescência programada fica evidente a cada novo festival de lançamentos de smartphones.">
   
 </head>
-<body>
+<body class="bg-gray-100">
   
-  <div class="container">
-    <header id="blog-header">
-      <div id="header-content">
-        <a href="/" id="header-logo">Fellipe Brito</a>
-        <!-- <nav>
-          <ul>
-            <li><a href="/about">About Me</a></li>
-            <li><a href="/portfolio">Portfolio</a></li>
-            <li><a href="/blog">Blog</a></li>
-            <li><a href="/contact">Contact</a></li>
-          </ul>
-        </nav> -->
-        <p id="tagline">"Remember you gonna die... but not today."</p>
-        <div id="interactive-icons">
-          <!-- Icons representing interests or categories -->
-        </div>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <header class="bg-white shadow">
+      <div class="py-6 px-4 sm:px-6 lg:px-8">
+        <a href="/" class="text-3xl font-bold leading-tight text-gray-900">Fellipe Brito</a>
+        <p class="mt-2 text-base text-gray-600">"Remember you gonna die... but not today."</p>
       </div>
     </header>
         
-    <main>
+    <main class="mt-8">
       <article class="post-article">
   
-    <header class="post-header" style="background-image: url('/assets/images/posts/header.jpg');">
+    <header class="post-header bg-cover bg-center" style="background-image: url('/assets/images/posts/header.jpg');">
   
-      <div class="header-content">
-          <h1>Black Friday</h1>
-          <p><time datetime="2014-11-27T22:00:00-08:00">
+      <div class="header-content p-4 md:p-16">
+          <h1 class="text-3xl md:text-5xl font-bold text-white">Black Friday</h1>
+          <p class="text-base text-gray-600"><time datetime="2014-11-27T22:00:00-08:00" class="inline-block">
               Nov 27, 2014
             </time></p>
       </div>
     </header>
 
-  <div class="post-content">
-    <p><a href="/img/posts/2014/11/consumismo.jpg"><img src="/img/posts/2014/11/consumismo-300x298.jpg" alt="consumismo" /></a></p>
+    <div class="post-content p-8 my-4 mx-auto max-w-4xl bg-white shadow-lg rounded-lg leading-relaxed">
+      <article class="prose lg:prose-xl prose-indigo mx-auto">
+        <p><a href="/img/posts/2014/11/consumismo.jpg"><img src="/img/posts/2014/11/consumismo-300x298.jpg" alt="consumismo" /></a></p>
 
 <p>Promoções relampago, daquelas que voce precisa comprar agora ou nunca, tem o
 poder de despertar em nós essa necessidade incrível de comprar algo que não
@@ -127,19 +117,17 @@ embarcando em uma viagem.</p>
 que se leva.</p>
 
 
-  </div>
+      </article>
+    </div>
 </article>
-
     </main>
     
-    <footer>
-      <p>&copy; 2023 . All rights reserved.</p>
+    <footer class="bg-white">
+      <div class="py-6 px-4 sm:px-6 lg:px-8">
+        <p class="text-base text-gray-600">&copy; 2023 . All rights reserved.</p>
+      </div>
     </footer>
   </div>
-
-  
-  <!-- Scripts at the end of the body to improve loading performance -->
-  <!-- <script src="/assets/js/main.js" defer></script> -->
   
 </body>
 </html>
