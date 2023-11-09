@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ page.description | default: site.description | escape }}">
+  <title>{{ page.title | default: site.title | escape }}</title>
+  
+  <!-- Favicon -->
+  <!-- <link rel="icon" type="image/png" href="/favicon.png"> -->
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/main.css">
+  
+  <!-- SEO: Open Graph data -->
+  <meta property="og:title" content="{{ page.title | default: site.title | escape }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:description" content="{{ page.description | default: site.description | escape }}">
+  
+  <!-- SEO: Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ page.title | default: site.title | escape }}">
+  <meta name="twitter:description" content="{{ page.description | default: site.description | escape }}">
+  
+</head>
+<body>
+  
+  <div class="container">
+    <header id="blog-header">
+      <div id="header-content">
+        <a href="/" id="header-logo">Fellipe Brito</a>
+        <!-- <nav>
+          <ul>
+            <li><a href="/about">About Me</a></li>
+            <li><a href="/portfolio">Portfolio</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/contact">Contact</a></li>
+          </ul>
+        </nav> -->
+        <p id="tagline">"Remember you gonna die... but not today."</p>
+        <div id="interactive-icons">
+          <!-- Icons representing interests or categories -->
+        </div>
+      </div>
+    </header>
+        
+    <main>
+      {{ content }}
+    </main>
+    
+    <footer>
+      <p>&copy; {{ site.time | date: '%Y' }} {{ site.author | escape }}. All rights reserved.</p>
+    </footer>
+  </div>
+
+  
+  <!-- Scripts at the end of the body to improve loading performance -->
+  <!-- <script src="/assets/js/main.js" defer></script> -->
+  
+</body>
+</html>

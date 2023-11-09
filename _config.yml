@@ -1,0 +1,15 @@
+title: Fellipe Brito
+email: email@fellipebrito.com
+description: "Christ follower, Husband, Nerd, Entrepreneur and Software Writer"
+baseurl: ""
+url: "http://fellipebrito.com/"
+
+# _config.yml
+permalink: :title/
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"

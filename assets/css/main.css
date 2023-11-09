@@ -1,0 +1,334 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* This ensures padding doesn't affect overall widths */
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+	font-family: Arial, sans-serif;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif; /* Example font */
+  line-height: 1.6; /* Default line height */
+  padding: 0 20px; /* Adds padding on the sides */
+}
+
+main {
+  max-width: 1200px; /* Maximum width of the content area */
+  margin: 0 auto; /* Centers the content area */
+  padding: 40px 20px; /* Padding inside the content area */
+  background: #fff; /* Example background color for content area */
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Adds a subtle shadow around the content area */
+}
+
+header, footer {
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer {
+  border-top: 1px solid #eaeaea; /* Adds a line to the top of the footer */
+}
+
+/* Adjustments for different screen sizes using media queries */
+@media (min-width: 768px) {
+  body {
+    padding: 0 40px; /* More side padding on larger screens */
+  }
+}
+
+/* Bento Box Styles */
+.bento-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+}
+
+.bento-item-link {
+    text-decoration: none;
+    color: inherit;
+    width: calc(33.333% - 20px); /* Adjust width for three items per row with margin */
+    margin: 10px;
+    display: block; /* Ensure it's block-level for width and margin to work */
+    overflow: hidden; /* Prevent content from spilling out */
+}
+
+.bento-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    position: relative;
+    /* Maintain the aspect ratio of 1280x714 */
+    padding-top: calc((714 / 1280) * 100%); /* This percentage maintains the aspect ratio */
+    height: 0; /* Height is controlled by padding-top */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and shadow */
+    cursor: pointer; /* Change the cursor to indicate it's clickable */
+}
+
+.bento-item:hover {
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3); /* Add a shadow to lift the item off the page */
+  }
+  
+  .bento-item:hover .post-image {
+    transform: scale(1.3) rotate(2deg); /* Enlarges and slightly rotates the image */
+    transition: transform 0.3s ease; /* Smooth transition for the transform */
+  }
+  
+
+  /* Ensure the image doesn't overflow its container */
+  .bento-item .post-image {
+    transition: transform 0.3s ease; /* Add this line if it's not already there */
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+    overflow: hidden;
+  }
+  
+
+/* Ensure images cover the space without changing size */
+.post-image {
+
+}
+
+
+.bento-item:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Hover effect */
+    cursor: pointer;
+}
+
+.title-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+/* ... Media queries ... */
+
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+    .bento-item-link {
+        width: calc(50% - 20px);
+    }
+
+    .bento-item {
+        padding-top: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 768px) {
+    .bento-item-link {
+        width: calc(100% - 20px);
+    }
+
+    .bento-item {
+        padding-top: calc(100% - 20px);
+    }
+}
+
+
+/* ARTICLE */
+/* Post Article Card */
+article {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 20px auto;
+    max-width: 800px; /* Adjust as necessary */
+    padding: 40px;
+    position: relative;
+  }
+  
+  article header {
+    margin-bottom: 20px;
+  }
+  
+  article header h1 {
+    font-size: 2.5em;
+    margin-bottom: .5em;
+  }
+  
+  article header time {
+    color: #999;
+    font-style: italic;
+  }
+  
+  article > div {
+    line-height: 1.6;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  /* Metadata styles */
+  article header p {
+    font-size: 0.9em;
+    color: #999;
+  }
+  
+  /* Hero Image */
+  article img {
+    width: 100%;
+    height: auto;
+    max-height: 300px; /* Control the height of the image */
+    object-fit: cover; /* Ensure the image covers the area nicely */
+    margin-bottom: 20px;
+  }
+  
+  /* Separator for metadata */
+  article header p {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Adjust image inside article */
+  article .post-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 1024px) {
+    article {
+      padding: 20px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    article {
+      margin: 10px;
+      padding: 10px;
+    }
+  }
+  
+  .post-header {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 300px; /* Set a fixed height or use padding to maintain aspect ratio */
+    color: white; /* Adjust text color to suit your design */
+  }
+  
+  .header-content {
+    background: rgba(0,0,0,0.5); /* Semi-transparent overlay for better readability */
+    padding: 1em;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .post-content {
+    /* Your post content styles here */
+    padding: 1em;
+  }
+  
+  .post-content p{
+    margin-bottom: 1.5em;
+  }
+
+  #blog-header {
+    color: black;
+    padding: 20px 10%;
+    position: relative;
+    text-align: center;
+  }
+  
+  #header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  #header-logo {
+    font-size: 2.5rem;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+  
+  #tagline {
+    font-style: italic;
+    opacity: 0.8;
+  }
+  
+  #interactive-icons > * {
+    display: inline-block;
+    margin: 0 10px;
+    transition: transform 0.3s;
+  }
+  
+  #interactive-icons > *:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    #header-content {
+      text-align: left;
+    }
+  
+    nav ul li {
+      display: block;
+      margin: 5px 0;
+    }
+  }
+  
