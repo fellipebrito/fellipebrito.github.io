@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './App.css'; // Styles specific to the App component
+import { Routes, Route, useLocation } from 'react-router-dom'; // Import useLocation to access the URL
+import Header from './Header'; // Component that lists posts
+import PostsList from './PostsList'; // Component that lists posts
 
+// The App component serves as the root of your application.
 function App() {
+  const location = useLocation();
+
+  // Determine the language based on the URL path
+  const language = location.pathname.startsWith('/em-portugues') ? 'pt' : 'en';
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Header />
+        <Routes>
+          <Route path="/in-english" element={<PostsList language="en" />} />
+          <Route path="/em-portugues/*" element={<PostsList language="pt" />} />
+          <Route path="/" element={<PostsList language={language} />} />
+        </Routes>
       </header>
     </div>
   );
 }
 
-export default App;
+export default App; // Export App for use in index.js
